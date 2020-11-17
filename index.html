@@ -39,72 +39,63 @@
 
 
 	<!-- Contenedor principal -->
-	<main>
-	    <h1 class="encabezado encabezado-principal"> Drive purchases with your blog.</h1>
-	    <p class="texto-principal">
-		Blog better with the first all-in-one blogging tool for growing ecommerce brands. 
-	    </p>
-	    <button class="button-texto-principal" type="submit"> Start free trial  </button>
-	    <img alt="Imagen de la marca" src="img/capterra.png" width="220px" />
-	    <p class="texto-principal footer-texto-principal">
-		Blog better today with a free 7-day trial.
-		No credit card required.
-	    </p>
-	    <img alt="getmatcha-image" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" width="80%" />
+	<main class="flex-container-main">
+		
+		<div class="main-text">
+			<h1 class="encabezado encabezado-principal">Drive purchases with your blog.</h1>
+			<p class="texto-principal">
+				Blog better with the first all-in-one blogging tool for growing ecommerce brands. Connect your blog, create and optimize blog posts for each stage of the buyer’s journey, and measure the results. 
+			</p>
+			<button class="button-texto-principal" type="submit"> Start free trial  </button>
+			<img alt="Imagen de la marca" src="img/capterra.png" width="220px" />
+			<p class="texto-principal footer-texto-principal">
+			Blog better today with a free 7-day trial.
+			No credit card required.
+			</p>
+			
+		</div>
+		
+		<div class="main-video">
+			<img alt="getmatcha-image" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" width="80%" />
+		</div>
+
 	</main>
-
 	
+	<div class="container-marcas">
+		<p>Trusted By Growing Ecommerce Brands</p>
+		<div class="flex-container-marcas-imagenes">
+			<img src="https://getmatcha.com/wp-content/uploads/2020/08/superfeet.png" alt="" class="logos__img">
+			<img src="https://getmatcha.com/wp-content/uploads/2020/08/spirithoods.png" alt="" class="logos__img">
+			<img src="https://getmatcha.com/wp-content/uploads/2020/08/seatosummit.png" alt="" class="logos__img">
+			<img src="https://getmatcha.com/wp-content/uploads/2020/08/osprey.png" alt="" class="logos__img">
+			<img src="https://getmatcha.com/wp-content/uploads/2020/08/oars.png" alt="" class="logos__img">
+			<img src="https://getmatcha.com/wp-content/uploads/2020/08/everly.png" alt="" class="logos__img">
+		</div>
+	</div>	
 
-	<!-- Contendor flex -->
-	<section class="container-flex-promo">
 
-	    <div class="container-video">
-		<!-- Video promocional -->
-		<video
-			controls
-			poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-		>
-		    <!-- src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"  es buena idea, si tenes el video es tu servidos que ta solo acepta un formato-->
-		    
-		    <!-- -Para tener varios formatos en caso de que no funcione uno --> 
-		    <source
-			type="video/webm"
-			src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm<"		   
-		    />
-		    <source
-			type="video/mp4"
-			src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4<"
-		    />
-		    <source
-			type="video/mp4"
-			src="./video/computer_code00_preview.mp4"
-		    />
-		</video>
-		<img alt="See how it works"
-		     src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
-		/>
+	<div class="container-feature">
+			<h2>Top Features</h2>
+			<p>Your blog is your most powerful asset to build, engage, and retain a loyal audience.</p>
+			<div class="flex-container-cards">
+				<div class="cards">
+					<img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="">
+					<a href="https://getmatcha.com/blog-creator/#feature-block-1"><h3 class="feature__title">Create content that converts.</h3> </a>
+					<p>Write and format blog posts within Matcha or update existing posts with Matcha’s lead and sale conversion tools. Optimize for SEO, then schedule or publish immediately to your blog</p>
+				</div>
+				<div class="cards">
+					<img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-381.png" alt="">
+					<a class="feature__title__anchor" href="https://getmatcha.com/blog-creator/#feature-block-2"><h3 class="feature__title">Embed your products and collections.</h3> </a>
+					<p>Turn your readers into customers by embedding Shopify products and product collections into or beneath your blog posts with “View Product” or “Add to Cart” CTAs.</p>
+				</div>
+				<div class="cards">
+					<img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-406-1.png" alt="">
+					<a class="feature__title__anchor" href="https://getmatcha.com/blog-creator/#feature-block-7"><h3 class="feature__title">Analyze full-funnel content insights.</h3> </a>
+					<p>Make data-driven decisions for your content strategy with in-depth analytics, from traffic, engagement, and read time to influenced email subscribers and revenue.</p>
+				</div>
 
-	    </div>
-	    <!-- Contenido de publicidad -->
-	    <article class="publicidad">
-		<h1 class="encabezado encabezado-publicidad"> Publish to your blog in minutes, not hours.</h1>
-		<p class="texto-principal texto-publicidad">
-		    Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool. 
-		</p>
-
-		<form>
-		    <p class="texto-principal footer-texto-publicidad">
-			Start publishing today :
-		    </p>
-		    <div>
-		    <input name="email" type="email" placeholder="Enter email">
-		    <button class="button-texto-principal" type="submit"> Start free trial  </button>
-		    </div>
-		</form>
-	    </article>
-	    
-	</section>
-
+			</div>
+	</div>
 	
         <footer class="footer">
             <a href="./index.html">
