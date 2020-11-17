@@ -1,0 +1,179 @@
+body{
+    background-color: #FFFFFF;
+}
+
+.header {
+    margin: 40px 20px 0 20px;
+    font-size: 0; /*Asi garantizamos que los espacios no tomen ningun tamaño*/
+    font-family: sans-serif;
+    height: 45px;
+    
+}
+
+.footer {
+    /*border:solid black 3px;*/
+    margin-top : 40px;
+    margin-down :40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+    
+}
+
+li {
+    display: inline;
+}
+
+.logo {
+    width: 15%;
+}
+
+
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color : #025157;
+    font-weight : 500;
+    
+}
+
+.actions {
+    width : 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* ----------------------------------------*/
+
+.item {
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.actions > *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sign-in{
+    color: #67b54b;
+    text-decoration: none; 
+}
+
+#start-free {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/*---------------Common Things--------------------------*/
+
+.encabezado {
+    color: #025157;
+}
+
+/*----- Parte principal de la pagina ------------------*/
+
+.encabezado-principal {
+    margin: 0 0 24px 0;
+    font-size: 70px;
+}
+.texto-principal {
+    color:#46484c;
+    font-size: 25px;
+}
+.footer-texto-principal {
+    font-size: 15px;
+}
+
+.button-texto-principal {
+    color: white;
+    background:  #67b54b;
+    padding: 10px 24px;
+    border: solid  1px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+/*----------------Publish text------------------------*/
+
+.encabezado-publicidad {
+    font-family: serif;
+    font-size: 40px;
+    margin: 0 0 9px 0;
+    line-height: 48px;
+}
+
+.texto-publicidad {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.footer-texto-publicidad {
+    font-size: 14px;
+    color: #025157;
+    margin-right: 18px;
+    
+}
+
+.publicidad > form {
+    display: flex;
+}
+
+/*--------Sesion 3 contenedor Flex -------------*/
+.container-flex-promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+}
+
+main {
+    margin-top: 285px;
+    text-align: center;
+}
+
+.container-flex-promo video {
+    margin-right: 50px;
+}
+
+/*--------------------Container video --------------------*/
+
+.container-video {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-video > img {
+      width: 120px;
+      margin-top: 10px; 
+}
+
